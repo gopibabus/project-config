@@ -1,0 +1,36 @@
+{
+  "name": "package-name",
+  "version": "0.0.0",
+  "description": "project description",
+  "license": "MIT",
+  "repository": "gopibabus/package-name",
+  "funding": "https://github.com/sponsors/gopibabus",
+  "author": {
+    "name": "Gopibabu Srungavarapu",
+    "email": "s.gopibabu@gmail.com",
+    "url": "https://gopibabu.live"
+  },
+  "bin": {
+    "package-name": "index.js",
+    "short-name": "index.js"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "format": "prettier --write \"./**/*.{js,json}\"",
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "utils"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "gopibabus/package-name",
+  "description": "project description",
+  "keywords": [
+    "project",
+    "desc"
+  ],
+  "homepage": "https://github.com/gopibabus/package-name",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gopibabu Srungavarapu",
+      "email": "s.gopibabu@gmail.com",
+      "homepage": "https://gopibabu.live",
+      "role": "Developer"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "Gopibabu\\ProjectName\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gopibabu\\ProjectName\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
